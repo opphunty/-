@@ -38,7 +38,7 @@ local drawingFontsEnum = {
 	[1] = Font.fromEnum(Enum.Font.Legacy),
 	[2] = Font.fromEnum(Enum.Font.SourceSans),
 	[3] = Font.fromEnum(Enum.Font.RobotoMono),
-        [4] = Font.fromEnum(Enum.Font.Tahoma)
+        [4] = Font.fromEnum(Enum.Font.Arial)
 }
 -- function
 local function getFontFromIndex(fontIndex)
@@ -55,6 +55,7 @@ DrawingLib.Fonts = {
 	["System"] = 1,
 	["Plex"] = 2,
 	["Monospace"] = 3
+        ["Arial"] = 4
 }
 
 function DrawingLib.new(drawingType)
